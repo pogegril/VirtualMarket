@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<store>
+    <shelves>
+        <shelf>
+            <name>Bread Aisle</name>
+            <cost>65.0</cost>
+            <description>A long bread stand displaying countless ways humans found to shape wheat.</description>
+            <size>25</size>
+            <products>
+                <product>
+                    <name>Baguette</name>
+                    <cost>1.1</cost>
+                    <description>Long french bread</description>
+                    <price>1.6</price>
+                    <stock>11</stock>
+                    <balance>14.5</balance>
+                </product>
+                <product>
+                    <name>Brioche</name>
+                    <cost>1.2</cost>
+                    <description>Bread but better</description>
+                    <price>1.68</price>
+                    <stock>31</stock>
+                    <balance>3.119999999999999</balance>
+                </product>
+                <product>
+                    <name>Cookies</name>
+                    <cost>1.6</cost>
+                    <description>Bread but sweet</description>
+                    <price>2.99</price>
+                    <stock>22</stock>
+                    <balance>-31.029999999999994</balance>
+                </product>
+                <product>
+                    <name>Cake</name>
+                    <cost>9.89</cost>
+                    <description>Sugar but bread</description>
+                    <price>12.68</price>
+                    <stock>4</stock>
+                    <balance>-22.820000000000007</balance>
+                </product>
+            </products>
+        </shelf>
+        <shelf>
+            <name>Snack Isle</name>
+            <cost>35.0</cost>
+            <description>Contains various treats</description>
+            <size>50</size>
+            <products>
+                <product>
+                    <name>Doritos</name>
+                    <cost>1.29</cost>
+                    <description>Edible  Salty Triangles</description>
+                    <price>1.78</price>
+                    <stock>25</stock>
+                    <balance>-24.900000000000006</balance>
+                </product>
+                <product>
+                    <name>Pringles</name>
+                    <cost>1.29</cost>
+                    <description>Too salty, weirdly addicting</description>
+                    <price>1.89</price>
+                    <stock>20</stock>
+                    <balance>-22.8</balance>
+                </product>
+            </products>
+        </shelf>
+        <shelf>
+            <name>Storage</name>
+            <cost>120.0</cost>
+            <description>Preserves products currently not for sale in the system</description>
+            <size>500</size>
+            <products/>
+        </shelf>
+        <shelf>
+            <name>Fruit Isle</name>
+            <cost>40.0</cost>
+            <description>A wide aisle that can store a varied fruit selection</description>
+            <size>20</size>
+            <products>
+                <product>
+                    <name>Banana</name>
+                    <cost>0.78</cost>
+                    <description>Can't be used as a phone.</description>
+                    <price>1.32</price>
+                    <stock>2</stock>
+                    <balance>2.76</balance>
+                </product>
+                <product>
+                    <name>Apple</name>
+                    <cost>0.6</cost>
+                    <description>Red fruit.</description>
+                    <price>1.0</price>
+                    <stock>13</stock>
+                    <balance>-5.0</balance>
+                </product>
+                <product>
+                    <name>Pear</name>
+                    <cost>0.8</cost>
+                    <description>Green pear-shaped fruit.</description>
+                    <price>1.29</price>
+                    <stock>15</stock>
+                    <balance>-7.100000000000001</balance>
+                </product>
+            </products>
+        </shelf>
+        <shelf>
+            <name>Freezer Isle</name>
+            <cost>200.0</cost>
+            <description>Keeps things cool</description>
+            <size>75</size>
+            <products>
+                <product>
+                    <name>Nuggets</name>
+                    <cost>3.5</cost>
+                    <description>Dino nuggies</description>
+                    <price>3.8609999999999998</price>
+                    <stock>25</stock>
+                    <balance>-87.5</balance>
+                </product>
+            </products>
+        </shelf>
+        <shelf>
+            <name>Materials Area</name>
+            <cost>50.0</cost>
+            <description>Storage of materials for sale</description>
+            <size>50</size>
+            <products>
+                <product>
+                    <name>Galvanized Square Steel</name>
+                    <cost>19.9</cost>
+                    <description>Perfect for expanding your home</description>
+                    <price>26.99</price>
+                    <stock>10</stock>
+                    <balance>155.49999999999983</balance>
+                </product>
+                <product>
+                    <name>Wood Veneers</name>
+                    <cost>12.9</cost>
+                    <description>Eco-friendly</description>
+                    <price>17.9</price>
+                    <stock>15</stock>
+                    <balance>-93.5</balance>
+                </product>
+            </products>
+        </shelf>
+    </shelves>
+    <clients>
+        <client>
+            <name>Bob</name>
+            <code>5</code>
+            <points>19</points>
+            <products/>
+        </client>
+        <client>
+            <name>Steve</name>
+            <code>6</code>
+            <points>0</points>
+            <products/>
+        </client>
+        <client>
+            <name>Bartholomeo BarthoMaw</name>
+            <code>9</code>
+            <points>0</points>
+            <products/>
+        </client>
+        <client>
+            <name>Goober</name>
+            <code>10</code>
+            <points>0</points>
+            <products/>
+        </client>
+        <client>
+            <name>Louie</name>
+            <code>3</code>
+            <points>14</points>
+            <products/>
+        </client>
+        <client>
+            <name>Big Jhon</name>
+            <code>11</code>
+            <points>0</points>
+            <products/>
+        </client>
+    </clients>
+    <employees>
+        <employee>
+            <name>Jhon Stamos</name>
+            <code>1</code>
+            <points>0</points>
+            <position>MANAGER</position>
+            <products/>
+            <salary>4250.0</salary>
+        </employee>
+        <employee>
+            <name>Juan</name>
+            <code>4</code>
+            <points>0</points>
+            <position>WORKER</position>
+            <products/>
+            <salary>1210.0</salary>
+        </employee>
+        <employee>
+            <name>Little Jhon</name>
+            <code>8</code>
+            <points>1034</points>
+            <position>STOCKER</position>
+            <products/>
+            <salary>950.0</salary>
+        </employee>
+        <employee>
+            <name>Archibald</name>
+            <code>2</code>
+            <points>0</points>
+            <position>MANAGER</position>
+            <products>
+                <product>
+                    <name>Cake</name>
+                    <cost>9.89</cost>
+                    <description>Sugar but bread</description>
+                    <price>12.68</price>
+                    <stock>1</stock>
+                    <balance>-9.89</balance>
+                </product>
+            </products>
+            <salary>3740.0</salary>
+        </employee>
+        <employee>
+            <name>Jeff</name>
+            <code>7</code>
+            <points>2</points>
+            <position>WORKER</position>
+            <products/>
+            <salary>1100.0</salary>
+        </employee>
+    </employees>
+</store>

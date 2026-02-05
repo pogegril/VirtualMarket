@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT store (shelves, clients, employees)>
+
+<!ELEMENT shelves (shelf*)>
+<!ELEMENT shelf (name, cost, description, size, products)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT cost (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT size (#PCDATA)>
+<!ELEMENT products (product*)>
+
+<!ELEMENT clients (client*)>
+<!ELEMENT client (name, code, points, products)>
+<!ELEMENT code (#PCDATA)>
+<!ELEMENT points (#PCDATA)>
+<!ELEMENT products (product*)>
+
+<!ELEMENT employees (employee*)>
+<!ELEMENT employee (name, code, points, position, products, salary)>
+<!ELEMENT position (#PCDATA)>
+<!ELEMENT salary (#PCDATA)>
+
+<!ATTLIST position value (CASHIER | STOCKER | WORKER | MANAGER) #REQUIRED>
+
+<!ELEMENT product (name, cost, description, price, stock, balance)>
+<!ELEMENT cost (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT stock (#PCDATA)>
+<!ELEMENT balance (#PCDATA)>
